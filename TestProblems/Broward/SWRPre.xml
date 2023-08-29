@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters
+  discretizationPath="Z:\Users\jdhughes\Documents\Development\swr_pre\TestProblems\Broward\bro_6lay.dis"
+  shapefilePath="Z:\Users\jdhughes\Documents\Development\swr_pre\TestProblems\Broward\she_branches_conn.shp"
+  anchorPointX="728600"
+  anchorPointY="577350"
+  rotation="0"
+  southernHemisphere="False"
+  fieldId="name"
+  fieldNConn="nconn"
+  fieldConn="conn"
+  segmentationType="Exact"
+  reachGroupLength="2650"
+  warnFlag="False"
+  preferredDirection="Top left"
+  xmlFlag="True"
+  startReachNumber="1" />

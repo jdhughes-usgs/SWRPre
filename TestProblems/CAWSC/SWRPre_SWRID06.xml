@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters
+  discretizationPath="D:\Users\jwhite\git_repo\swr_pre\TestProblems\CAWSC\DIS.txt"
+  shapefilePath="D:\Users\jwhite\git_repo\swr_pre\TestProblems\CAWSC\SWRID06.shp"
+  anchorPointX="38818"
+  anchorPointY="1280164"
+  rotation="30.4"
+  fieldId="swrid"
+  fieldNConn="NConn"
+  fieldConn="IConn"
+  segmentationType="NoClip"
+  reachGroupLength="0"
+  warnFlag="True"
+  preferredDirection="Top left"
+  xmlFlag="False"
+  startReachNumber="1" />

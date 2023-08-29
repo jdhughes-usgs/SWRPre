@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters
+  discretizationPath="D:\Users\jwhite\git_repo\swr_pre\TestProblems\Broward\bro_6lay.dis"
+  shapefilePath="D:\Users\jwhite\git_repo\swr_pre\TestProblems\Broward\she_primary_xsec_conn.shp"
+  anchorPointX="728600"
+  anchorPointY="577350"
+  rotation="0"
+  minimumElementLength="0"
+  fieldId="reach"
+  fieldNConn="nconn"
+  fieldConn="conn"
+  segmentationType="Exact"
+  reachGroupLength="2650"
+  warnFlag="False"
+  preferredDirection="Top left"
+  xmlFlag="True" />

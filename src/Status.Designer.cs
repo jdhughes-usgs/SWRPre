@@ -1,0 +1,131 @@
+﻿namespace SWRPre
+{
+    partial class Status
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Status));
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.buttonCancel = new System.Windows.Forms.Button();
+            this.listBoxTask = new System.Windows.Forms.ListBox();
+            this.buttonTask2Clipboard = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(12, 25);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(364, 19);
+            this.progressBar1.Step = 1;
+            this.progressBar1.TabIndex = 0;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(16, 5);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Progress";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 56);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Current Task";
+            // 
+            // buttonCancel
+            // 
+            this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonCancel.Location = new System.Drawing.Point(142, 208);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(92, 36);
+            this.buttonCancel.TabIndex = 4;
+            this.buttonCancel.Text = "Cancel";
+            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
+            // 
+            // listBoxTask
+            // 
+            this.listBoxTask.FormattingEnabled = true;
+            this.listBoxTask.Location = new System.Drawing.Point(12, 81);
+            this.listBoxTask.MaximumSize = new System.Drawing.Size(364, 130);
+            this.listBoxTask.MinimumSize = new System.Drawing.Size(364, 130);
+            this.listBoxTask.Name = "listBoxTask";
+            this.listBoxTask.ScrollAlwaysVisible = true;
+            this.listBoxTask.Size = new System.Drawing.Size(364, 121);
+            this.listBoxTask.TabIndex = 5;
+            this.listBoxTask.SelectedIndexChanged += new System.EventHandler(this.listBoxTask_SelectedIndexChanged);
+            // 
+            // buttonTask2Clipboard
+            // 
+            this.buttonTask2Clipboard.Location = new System.Drawing.Point(111, 50);
+            this.buttonTask2Clipboard.Name = "buttonTask2Clipboard";
+            this.buttonTask2Clipboard.Size = new System.Drawing.Size(155, 25);
+            this.buttonTask2Clipboard.TabIndex = 6;
+            this.buttonTask2Clipboard.Text = "Copy Output to Clipboard";
+            this.buttonTask2Clipboard.UseVisualStyleBackColor = true;
+            this.buttonTask2Clipboard.Click += new System.EventHandler(this.buttonTask2Clipboard_Click);
+            // 
+            // Status
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(382, 256);
+            this.Controls.Add(this.buttonTask2Clipboard);
+            this.Controls.Add(this.listBoxTask);
+            this.Controls.Add(this.buttonCancel);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.progressBar1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(200, 200);
+            this.Name = "Status";
+            this.Text = "SWR_Pre Running...";
+            this.Load += new System.EventHandler(this.Status_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button buttonCancel;
+        private System.Windows.Forms.ListBox listBoxTask;
+        private System.Windows.Forms.Button buttonTask2Clipboard;
+    }
+}

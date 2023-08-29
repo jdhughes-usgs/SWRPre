@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters
+  discretizationPath="D:\Users\jwhite\git_repo\swr_pre\TestProblems\Kikuchi\GooseCk_SWRonly.dis"
+  shapefilePath="D:\Users\jwhite\git_repo\swr_pre\TestProblems\Kikuchi\2d_line.shp"
+  anchorPointX="1632106.99"
+  anchorPointY="2684702.1"
+  rotation="0"
+  fieldId="name"
+  fieldNConn="nconn"
+  fieldConn="iconn"
+  segmentationType="NoClip"
+  reachGroupLength="0"
+  warnFlag="False"
+  preferredDirection="None"
+  xmlFlag="True"
+  startReachNumber="1" />
